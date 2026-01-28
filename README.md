@@ -1,17 +1,13 @@
-# 📘 Estudos de Programação
+# 📚 Estudos em Programação
 
-Repositório criado para armazenar exercícios desenvolvidos durante meus estudos de Logica de Programação com a Linguagem Python, utilizando a plataforma
-Curso em Vídeo (Gustavo Guanabara).
+Este repositório contém exercícios e práticas desenvolvidas durante meus estudos em programação.
 
-## 📚 Conteúdos estudados
-- Lógica de Programação com Python3 - Mundo 01
-    - Tipos primitivos e saída de dados
-    - Operadores Aritméticos
-    - Utilizando Módulos
-    - Manipulando Textos
-    - Estruturas Condicionais (parte I)
-    - Cores no Terminal
-    
-## 🚀 Status
-Finalizado
+## 📌 Conteúdos abordados
+- Lógica de Programação
+- Python 3
 
+## 🎯 Objetivo
+Consolidar a base em programação por meio de prática constante e versionamento no GitHub.
+
+---
+📌 Em constante atualização.
