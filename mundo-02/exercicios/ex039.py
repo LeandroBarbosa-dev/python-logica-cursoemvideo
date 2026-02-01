@@ -7,4 +7,20 @@ Faça um programa que leia o ano de nascimento de um jovem e informa de acordo c
 
 Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
 """
+from datetime import date
 
+print('\033[34m=\033[m' * 30)
+print('\033[32m    Programa de Alistamento            \033[m')
+print('\033[34m=\033[m' * 30)
+
+anoNascimento = int(input('Informe o ano de nascimento do jovem: '))
+idade = date.today().year - anoNascimento
+
+if idade == 18:
+    print('\033[32mEstá na hora de você se alistar ao serviço militar.\033[m')
+elif idade < 18:
+    tempo_utrapassado = 18 - idade
+    print('Ainda faltam \033[34m{} anos\033[m para você se alistar ao serviço militar.'.format(tempo_utrapassado))
+elif idade > 18:
+    tempo_utrapassado = idade - 18
+    print('Já passou o tempo de \033[31m{} anos\033[m de você se alistar ao serviço militar.'.format(tempo_utrapassado))

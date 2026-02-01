@@ -26,3 +26,4 @@ else:
     print('\033[33m-=\033[m' * 20)
     print('Empréstimo \033[32mAPROVADO! Parabéns\033[m')
     print('Valor da parcela ao mês R${:.2f}'.format(prestacao))
+''
