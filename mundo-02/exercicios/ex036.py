@@ -5,8 +5,6 @@ O programa vai perguntar o valor da casa, o salário do comprador e em quantos a
 Calcule o valor da prestação mensal, sabendo que ela não pode exceder 30% do salário
 ou então o empréstimo será negado.
 """
-from traceback import print_tb
-
 print('\033[33m-=\033[m'*20)
 print('{:^35}'.format('Bank LHB'))
 print('\033[33m-=\033[m'*20)
